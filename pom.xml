@@ -5,8 +5,8 @@
     <groupId>Neosalpha.com</groupId>
     <artifactId>1234</artifactId>
     <version>1.0.0</version>
-    <name>${proxyname}</name>
-    <packaging>pom</packaging>
+<!--     <name>${proxyname}</name> -->
+    <packaging>apiproxy</packaging>
 
    <properties>
             <project.root.dir>${basedir}</project.root.dir>
@@ -47,7 +47,7 @@
                                     <username>${username}</username>
                                     <password>${password}</password>
                                     <api>${api}</api>
-                                    <proxy>${proxyname}</proxy>
+<!--                                     <proxy>${proxyname}</proxy> -->
                                     <environment>${environment}</environment>
                                 </configuration>
                             </execution>
