@@ -6,7 +6,7 @@
     <artifactId>1234</artifactId>
     <version>1.0.0</version>
 <!--     <name>${proxyname}</name> -->
-    <packaging>apiproxy</packaging>
+    <packaging>pom</packaging>
 
    <properties>
             <project.root.dir>${basedir}</project.root.dir>
