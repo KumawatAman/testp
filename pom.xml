@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>Neosalpha.com</groupId>
-    <artifactId>1234</artifactId>
+    <artifactId>com.neosalpha</artifactId>
     <version>1.0.0</version>
 <!--     <name>${proxyname}</name> -->
     <packaging>apiproxy</packaging>
@@ -98,7 +98,7 @@
                                 <!-- Add more environments as needed -->
                             </environments>
                             <options>
-                                <import>${project.basedir}/src/main/apiproxy</import>
+                                <import>${basedir}/src/main/apiproxy</import>
                             </options>
                         </configuration>
                     </execution>
