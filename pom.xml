@@ -3,7 +3,7 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
     <groupId>Neosalpha.com</groupId>
-    <artifactId>com.neosalpha</artifactId>
+    <artifactId>1234</artifactId>
     <version>1.0.0</version>
 <!--     <name>${proxyname}</name> -->
     <packaging>apiproxy</packaging>
@@ -48,14 +48,14 @@
                                     <password>${password}</password>
                                     <api>${api}</api>
 <!--                                     <proxy>${proxyname}</proxy> -->
-                                    <environment>${environment}</environment>
+<!--                                     <environment>${environment}</environment>
                                 </configuration>
                             </execution>
                         </executions>
                     </plugin>
-                </plugins>
-            </build>
-        </profile> -->
+                </plugins> -->
+<!--             </build>
+        </profile> --> 
         <profile>
             <id>test</id>
             <properties>
